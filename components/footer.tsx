@@ -17,7 +17,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-slate-300 leading-relaxed max-w-sm">
-              Empowering startups across Canada & North America with comprehensive digital solutions and strategic guidance.
+              Empowering startups across Canada & America with comprehensive digital solutions and strategic guidance.
             </p>
             <div className="flex space-x-4">
               <div className="bg-slate-800 p-3 rounded-lg hover:bg-slate-700 transition-colors cursor-pointer">
