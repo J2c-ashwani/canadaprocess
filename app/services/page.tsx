@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { Award, CheckCircle, Globe, TrendingUp, Zap, ArrowRight, Shield, ShoppingCart } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -50,7 +51,7 @@ export default function ServicesPage() {
                   <span className="text-emerald-600">Professional Web Development Services</span>
                 </h1>
                 <p className="max-w-[900px] mx-auto text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-center">
-                  Unlock millions in Canadian government funding with our 85% success rate. Plus comprehensive web
+                  Unlock millions in USA & Canadian government funding with our 85% success rate. Plus comprehensive web
                   development solutions designed to accelerate your business growth in the competitive North American
                   market.
                 </p>
@@ -86,7 +87,10 @@ export default function ServicesPage() {
                 <CardContent className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-bold text-slate-900 mb-3 text-lg">🇨🇦 Canadian Grant Programs:</h4>
+                      <h4 className="font-bold text-slate-900 mb-3 text-lg flex items-center">
+                        <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                        Canadian Grant Programs:
+                      </h4>
                       <ul className="space-y-2 text-sm text-slate-600">
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
@@ -133,7 +137,10 @@ export default function ServicesPage() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-bold text-slate-900 mb-3 text-lg">🇺🇸 American Grant Programs:</h4>
+                      <h4 className="font-bold text-slate-900 mb-3 text-lg flex items-center">
+                        <Image src="/flags/us.png" alt="USA Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                        American Grant Programs:
+                      </h4>
                       <ul className="space-y-2 text-sm text-slate-600">
                         <li className="flex items-center">
                           <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
@@ -550,7 +557,10 @@ export default function ServicesPage() {
             <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
               <Card className="border-2 border-amber-200 bg-white hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-amber-700">🇨🇦 CDAP - Canada Digital Adoption Program</CardTitle>
+                  <CardTitle className="text-xl text-amber-700 flex items-center">
+                    <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                    CDAP - Canada Digital Adoption Program
+                  </CardTitle>
                   <CardDescription>Up to $100,000 for digital transformation projects</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -565,7 +575,10 @@ export default function ServicesPage() {
 
               <Card className="border-2 border-amber-200 bg-white hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-amber-700">🇨🇦 IRAP - Industrial Research Program</CardTitle>
+                  <CardTitle className="text-xl text-amber-700 flex items-center">
+                    <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                    IRAP - Industrial Research Program
+                  </CardTitle>
                   <CardDescription>Up to $1M for innovation and R&D projects</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -580,7 +593,10 @@ export default function ServicesPage() {
 
               <Card className="border-2 border-amber-200 bg-white hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-amber-700">🇺🇸 SBIR - Small Business Innovation</CardTitle>
+                  <CardTitle className="text-xl text-amber-700 flex items-center">
+                    <Image src="/flags/us.png" alt="USA Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                    SBIR - Small Business Innovation
+                  </CardTitle>
                   <CardDescription>Up to $1.7M for innovative technology development</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -595,7 +611,10 @@ export default function ServicesPage() {
 
               <Card className="border-2 border-amber-200 bg-white hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-amber-700">🇨🇦 SR&ED Tax Credits</CardTitle>
+                  <CardTitle className="text-xl text-amber-700 flex items-center">
+                    <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                    SR&ED Tax Credits
+                  </CardTitle>
                   <CardDescription>Up to 35% tax credit on R&D expenses</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -625,7 +644,10 @@ export default function ServicesPage() {
 
               <Card className="border-2 border-amber-200 bg-white hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-amber-700">🌱 SEED Funds & Provincial Grants</CardTitle>
+                  <CardTitle className="text-xl text-amber-700 flex items-center">
+                     <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                    SEED Funds & Provincial Grants
+                  </CardTitle>
                   <CardDescription>Early-stage funding for Canadian startups</CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -640,7 +662,10 @@ export default function ServicesPage() {
 
               <Card className="border-2 border-amber-200 bg-white hover:shadow-xl transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-xl text-amber-700">🇨🇦 First Fund - Early-Stage Funding</CardTitle>
+                  <CardTitle className="text-xl text-amber-700 flex items-center">
+                     <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                    First Fund - Early-Stage Funding
+                  </CardTitle>
                   <CardDescription>Up to $500K for early-stage Canadian startups</CardDescription>
                 </CardHeader>
                 <CardContent>

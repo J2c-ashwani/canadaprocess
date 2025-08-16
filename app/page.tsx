@@ -119,7 +119,11 @@ const HomePage: React.FC = () => {
                         <Award className="h-6 w-6 text-white" />
                       </div>
                       <div>
-                        <div className="font-bold text-white">🇺🇸🇨🇦 Dual Expertise</div>
+                        <div className="font-bold text-white flex items-center">
+                          <Image src="/flags/us.png" alt="USA Flag" width={24} height={16} className="mr-1.5 rounded-sm" />
+                          <Image src="/flags/ca.png" alt="Canadian Flag" width={24} height={16} className="mr-2 rounded-sm" />
+                           Dual Expertise
+                        </div>
                         <div className="text-xs text-white/80">Grants + Web Solutions</div>
                       </div>
                     </div>
@@ -147,6 +151,41 @@ const HomePage: React.FC = () => {
               </p>
             </div>
             <div className="grid gap-8 lg:grid-cols-2 xl:grid-cols-3">
+              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-500 bg-white group hover:-translate-y-2">
+                <CardHeader className="text-center pb-4">
+                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 group-hover:scale-110 transition-transform duration-500 shadow-lg">
+                    <Award className="h-8 w-8 text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-bold mb-3 text-slate-900">Government Grant Assistance</CardTitle>
+                  <CardDescription className="text-slate-600 leading-relaxed">
+                    Expert assistance with USA & Canadian government grants and funding programs for startups and small businesses, including application preparation and compliance management.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <ul className="space-y-3 text-sm text-slate-600">
+                    <li className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
+                      USA & Canadian Grant Research
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
+                      Application Preparation
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
+                      Federal & Provincial Programs
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
+                      Compliance Management
+                    </li>
+                    <li className="flex items-center">
+                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
+                      85% Success Rate
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
               <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-500 bg-white group hover:-translate-y-2">
                 <CardHeader className="text-center pb-4">
                   <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-600 to-blue-700 group-hover:scale-110 transition-transform duration-500 shadow-lg">
@@ -322,42 +361,6 @@ const HomePage: React.FC = () => {
                     <li className="flex items-center">
                       <CheckCircle className="h-4 w-4 text-teal-600 mr-3 flex-shrink-0" />
                       24/7 Technical Support
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-500 bg-white group hover:-translate-y-2">
-                <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 group-hover:scale-110 transition-transform duration-500 shadow-lg">
-                    <Award className="h-8 w-8 text-white" />
-                  </div>
-                  <CardTitle className="text-xl font-bold mb-3 text-slate-900">Government Grant Assistance</CardTitle>
-                  <CardDescription className="text-slate-600 leading-relaxed">
-                    Expert assistance with Canadian government grants and funding programs for startups and small businesses, including application preparation and compliance management.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <ul className="space-y-3 text-sm text-slate-600">
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
-                      USA & Canadian Grant Research
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
-                      Application Preparation
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
-                      Federal & Provincial Programs
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
-                      Compliance Management
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="h-4 w-4 text-amber-600 mr-3 flex-shrink-0" />
-                      85% Success Rate
                     </li>
                   </ul>
                 </CardContent>
