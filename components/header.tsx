@@ -2,8 +2,9 @@
 
 import { Building2, Menu, X } from 'lucide-react'
 import Link from "next/link"
+import Image from "next/image" // Import the Image component
 import { usePathname } from 'next/navigation'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import { Button } from "@/components/ui/button"
 
@@ -21,9 +22,17 @@ export function Header() {
     <header className="px-6 lg:px-8 h-16 flex items-center bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
       <Link className="flex items-center justify-center" href="/" onClick={handleNavClick}>
         <div className="flex items-center space-x-3">
-          <div className="bg-gradient-to-br from-slate-800 to-slate-600 p-2 rounded-xl">
-            <Building2 className="h-6 w-6 text-white" />
-          </div>
+          {/* --- LOGO UPDATE AREA --- */}
+          {/* Replace the src with the path to your new logo in the /public folder */}
+          {/* Adjust width and height as needed */}
+          <Image
+            src="/logo.png" // Example: /your-logo.svg or /your-logo.png
+            alt="FSI Digital Logo"
+            width={40} // Example width
+            height={40} // Example height
+            className="h-10 w-10" // Adjust if necessary
+          />
+          {/* You can remove the text part if your logo includes the name */}
           <div>
             <span className="text-xl font-bold text-slate-900">FSI Digital</span>
             <div className="text-xs text-slate-500 font-medium -mt-1">Business Solutions</div>
