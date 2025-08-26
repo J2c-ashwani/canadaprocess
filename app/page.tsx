@@ -48,9 +48,9 @@ const HomePage: React.FC = () => {
                       <Award className="mr-2 h-4 w-4 text-amber-400" />
                       🚀 $50M+ in Grants Secured
                     </div>
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                    <h1 className="text-[28px] leading-tight sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
                       Unlock Government Funding &
-                      <span className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-teal-300 to-blue-400">
+                      <span className="inline-block relative text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-teal-300 to-blue-400">
                         Transform Your Digital Presence
                       </span>
                     </h1>
@@ -583,4 +583,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage
+export default HomePage;
