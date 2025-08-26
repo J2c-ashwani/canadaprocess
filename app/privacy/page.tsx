@@ -4,8 +4,8 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | StartupBoost",
-  description: "Learn how StartupBoost protects your privacy and handles your personal information.",
+  title: "Privacy Policy | FSI Digital",
+  description: "Learn how FSI Digital protects your privacy and handles your personal information.",
 }
 
 // Add ChevronLeft icon
@@ -36,7 +36,7 @@ export default function PrivacyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Introduction</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                StartupBoost ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
+                FSI Digital ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
                 explains how we collect, use, disclose, and safeguard your information when you visit our website or use
                 our services.
               </p>
@@ -171,7 +171,7 @@ export default function PrivacyPage() {
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>Email:</strong> privacy@startupboost.com
+                  <strong>Email:</strong> privacy@fsidigital.com
                 </p>
                 <p className="text-gray-700 mb-2">
                   <strong>Phone:</strong> +1 (555) 123-4567

@@ -99,7 +99,7 @@ export function Footer() {
                 <Building2Icon />
               </div>
               <div>
-                <span className="text-xl font-bold">StartupBoost</span>
+                <span className="text-xl font-bold">FSI Digital</span>
                 <div className="text-xs text-slate-400 font-medium -mt-1">Business Solutions</div>
               </div>
             </div>
@@ -193,7 +193,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <MailIcon />
-                <span>hello@startupboost.com</span>
+                <span>hello@fsidigital.com</span>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPinIcon />
@@ -208,7 +208,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-slate-400 text-sm">© 2024 StartupBoost. All rights reserved.</p>
+          <p className="text-slate-400 text-sm">© 2024 FSI Digital. All rights reserved.</p>
           <div className="flex space-x-6 text-sm text-slate-400 mt-4 sm:mt-0">
             <Link href="/privacy" onClick={handleLinkClick} className="hover:text-white transition-colors">
               Privacy Policy

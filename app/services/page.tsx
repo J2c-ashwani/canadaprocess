@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     "website maintenance USA",
   ],
   alternates: {
-    canonical: "https://startupboost.com/services",
+    canonical: "https://fsidigital.com/services",
   },
   openGraph: {
-    title: "Professional Web Development Services in USA | StartupBoost",
+    title: "Professional Web Development Services in USA | FSI Digital",
     description:
       "Custom website development, e-commerce solutions, SEO services, and digital marketing for American businesses. Get a free quote today.",
-    url: "https://startupboost.com/services",
+    url: "https://fsidigital.com/services",
   },
 }
 

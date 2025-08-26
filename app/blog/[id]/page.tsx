@@ -163,7 +163,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
   }
 
   return {
-    title: `${post.title} | StartupBoost Blog`,
+    title: `${post.title} | FSI Digital Blog`,
     description: post.excerpt,
   }
 }

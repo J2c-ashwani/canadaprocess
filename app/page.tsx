@@ -95,7 +95,7 @@ const HomePage: React.FC = () => {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 via-teal-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
                   <Image
-                    alt="StartupBoost team working on custom web design projects"
+                    alt="FSI Digital team working on custom web design projects"
                     className="relative rounded-3xl object-cover shadow-2xl border border-white/20 backdrop-blur-sm"
                     height={600}
                     src="/modern-startup-office.png"
@@ -193,7 +193,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <CardTitle className="text-xl font-bold mb-3 text-slate-900">Custom Website Development</CardTitle>
                   <CardDescription className="text-slate-600 leading-relaxed">
-                    Professional custom website development services including responsive web design, WordPress development, and modern web applications for Canadian businesses.
+                    Professional custom website development services including responsive web design, WordPress development, and modern web applications for USA & Canadian businesses.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
@@ -391,7 +391,7 @@ const HomePage: React.FC = () => {
                 <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8">
                   Why Canadian Businesses Choose
                   <span className="block bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent">
-                    StartupBoost for Web Development
+                    FSI Digital for Web Development
                   </span>
                 </h2>
                 <p className="text-xl text-slate-600 mb-10 leading-relaxed">
@@ -480,7 +480,7 @@ const HomePage: React.FC = () => {
                     ))}
                   </div>
                   <blockquote className="text-slate-700 mb-8 italic text-lg leading-relaxed">
-                    "StartupBoost delivered a sophisticated, professional website that perfectly represents our brand. Our online conversions increased by 300% in the first month after launch!"
+                    "FSI Digital delivered a sophisticated, professional website that perfectly represents our brand. Our online conversions increased by 300% in the first month after launch!"
                   </blockquote>
                   <div className="flex items-center">
                     <div className="bg-gradient-to-br from-teal-500 to-teal-600 rounded-full h-14 w-14 mr-4 flex items-center justify-center shadow-lg">

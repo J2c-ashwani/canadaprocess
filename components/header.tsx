@@ -25,7 +25,7 @@ export function Header() {
             <Building2 className="h-6 w-6 text-white" />
           </div>
           <div>
-            <span className="text-xl font-bold text-slate-900">StartupBoost</span>
+            <span className="text-xl font-bold text-slate-900">FSI Digital</span>
             <div className="text-xs text-slate-500 font-medium -mt-1">Business Solutions</div>
           </div>
         </div>

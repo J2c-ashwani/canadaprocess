@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
 
     // Email to business owner
     const businessOwnerEmailData = {
-      from: 'StartupBoost <onboarding@resend.dev>',
+      from: 'FSI Digital <onboarding@resend.dev>',
       to: ['sukashwanikumar@gmail.com'],
       replyTo: email,
       subject: `🚀 New ${source} Enquiry from ${fullName}`,
@@ -70,7 +70,7 @@ export async function POST(request: NextRequest) {
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
           <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 30px; border-radius: 10px 10px 0 0; text-align: center;">
             <h1 style="color: white; margin: 0; font-size: 24px;">🚀 New Contact Enquiry</h1>
-            <p style="color: #d1fae5; margin: 10px 0 0 0;">StartupBoost Canada</p>
+            <p style="color: #d1fae5; margin: 10px 0 0 0;">FSI Digital Canada</p>
           </div>
           
           <div style="background: #f9fafb; padding: 30px; border-radius: 0 0 10px 10px; border: 1px solid #e5e7eb;">
@@ -141,16 +141,16 @@ export async function POST(request: NextRequest) {
 
     // Auto-reply email to client
     const clientEmailData = {
-      from: 'StartupBoost <onboarding@resend.dev>',
+      from: 'FSI Digital <onboarding@resend.dev>',
       to: [email],
-      subject: `Thank you for contacting StartupBoost Canada, ${firstName}!`,
+      subject: `Thank you for contacting FSI Digital Canada, ${firstName}!`,
       html: `
         <!DOCTYPE html>
         <html>
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Thank You - StartupBoost Canada</title>
+          <title>Thank You - FSI Digital Canada</title>
         </head>
         <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; padding: 20px;">
           <div style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); padding: 30px; border-radius: 10px 10px 0 0; text-align: center;">
@@ -190,7 +190,7 @@ export async function POST(request: NextRequest) {
             </div>
             
             <div style="background: #fef3c7; border: 1px solid #f59e0b; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
-              <h3 style="color: #92400e; margin-top: 0; font-size: 16px;">🚀 Why Choose StartupBoost Canada?</h3>
+              <h3 style="color: #92400e; margin-top: 0; font-size: 16px;">🚀 Why Choose FSI Digital Canada?</h3>
               <ul style="color: #92400e; margin: 10px 0; padding-left: 20px;">
                 <li>85% success rate with government grants</li>
                 <li>500+ successful startup websites launched</li>
@@ -213,7 +213,7 @@ export async function POST(request: NextRequest) {
             <div style="text-align: center; margin-top: 25px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
               <p style="color: #6b7280; font-size: 14px; margin: 0;">
                 This email was sent because you contacted us through our website.<br>
-                StartupBoost Canada - Empowering Canadian Startups Since 2020
+                FSI Digital Canada - Empowering Canadian Startups Since 2020
               </p>
             </div>
           </div>

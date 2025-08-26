@@ -4,8 +4,8 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Terms of Service | StartupBoost",
-  description: "Read our terms of service and understand the conditions for using StartupBoost services.",
+  title: "Terms of Service | FSI Digital",
+  description: "Read our terms of service and understand the conditions for using FSI Digital services.",
 }
 
 // Add ChevronLeft icon
@@ -36,7 +36,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                By accessing and using StartupBoost's website and services, you accept and agree to be bound by the
+                By accessing and using FSI Digital's website and services, you accept and agree to be bound by the
                 terms and provision of this agreement. If you do not agree to abide by the above, please do not use this
                 service.
               </p>
@@ -45,7 +45,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Description of Services</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                StartupBoost provides comprehensive business solutions including:
+                FSI Digital provides comprehensive business solutions including:
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
                 <li>Website development and design services</li>
@@ -86,13 +86,13 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Intellectual Property Rights</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                All content, features, and functionality on our website are owned by StartupBoost and are protected by
+                All content, features, and functionality on our website are owned by FSI Digital and are protected by
                 copyright, trademark, and other intellectual property laws.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">For custom development work:</p>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
                 <li>Client owns the final deliverables upon full payment</li>
-                <li>StartupBoost retains rights to methodologies and frameworks</li>
+                <li>FSI Digital retains rights to methodologies and frameworks</li>
                 <li>Third-party components remain subject to their respective licenses</li>
               </ul>
             </section>
@@ -113,7 +113,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Limitation of Liability</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                StartupBoost shall not be liable for any indirect, incidental, special, consequential, or punitive
+                FSI Digital shall not be liable for any indirect, incidental, special, consequential, or punitive
                 damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses,
                 resulting from your use of our services.
               </p>
@@ -159,7 +159,7 @@ export default function TermsPage() {
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>Email:</strong> legal@startupboost.com
+                  <strong>Email:</strong> legal@fsidigital.com
                 </p>
                 <p className="text-gray-700 mb-2">
                   <strong>Phone:</strong> +1 (555) 123-4567

@@ -6,21 +6,21 @@ import { PopupContactForm } from '@/components/popup-contact-form'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'StartupBoost Canada - Professional Website Development & Digital Marketing',
+  title: 'FSI Digital Canada - Professional Website Development & Digital Marketing',
   description: 'Transform your startup with professional website development, SEO, digital marketing, and government grant assistance. Serving Canadian entrepreneurs since 2020.',
   keywords: 'startup website, web development, SEO, digital marketing, government grants, Canada',
-  authors: [{ name: 'StartupBoost Canada' }],
+  authors: [{ name: 'FSI Digital Canada' }],
   openGraph: {
-    title: 'StartupBoost Canada - Professional Website Development',
+    title: 'FSI Digital Canada - Professional Website Development',
     description: 'Transform your startup with professional website development, SEO, and digital marketing services.',
     url: 'https://startupboost.ca',
-    siteName: 'StartupBoost Canada',
+    siteName: 'FSI Digital Canada',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'StartupBoost Canada - Professional Website Development',
+        alt: 'FSI Digital Canada - Professional Website Development',
       },
     ],
     locale: 'en_CA',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'StartupBoost Canada - Professional Website Development',
+    title: 'FSI Digital Canada - Professional Website Development',
     description: 'Transform your startup with professional website development, SEO, and digital marketing services.',
     images: ['/og-image.jpg'],
   },

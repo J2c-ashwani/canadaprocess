@@ -12,7 +12,7 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
         return {
           "@context": "https://schema.org",
           "@type": "WebSite",
-          "name": "StartupBoost",
+          "name": "FSI Digital",
           "url": "https://startupboost.ca",
           "potentialAction": {
             "@type": "SearchAction",
@@ -29,7 +29,7 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
           "description": data.description,
           "provider": {
             "@type": "Organization",
-            "name": "StartupBoost",
+            "name": "FSI Digital",
             "url": "https://startupboost.ca"
           },
           "areaServed": {
@@ -53,7 +53,7 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
         return {
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "StartupBoost",
+          "name": "FSI Digital",
           "url": "https://startupboost.ca",
           "logo": "https://startupboost.ca/logo.png",
           "description": "Professional website development and digital marketing services for Canadian businesses",

@@ -59,7 +59,7 @@ export default function AboutPage() {
                     Born from Entrepreneurial Experience
                   </h2>
                   <p className="text-xl text-gray-600 leading-relaxed">
-                    StartupBoost was founded by serial entrepreneurs who understood firsthand the challenges 
+                    FSI Digital was founded by serial entrepreneurs who understood firsthand the challenges 
                     of scaling a business in today's competitive landscape.
                   </p>
                 </div>
@@ -71,7 +71,7 @@ export default function AboutPage() {
                     government funding processes.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    This insight led to the creation of StartupBoost - a comprehensive business solutions firm 
+                    This insight led to the creation of FSI Digital - a comprehensive business solutions firm 
                     that combines technical excellence, strategic marketing, and funding expertise under one roof. 
                     Today, we're proud to be the go-to partner for ambitious entrepreneurs across North America.
                   </p>
@@ -291,7 +291,7 @@ export default function AboutPage() {
           <div className="container px-4 md:px-6 mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold tracking-tight sm:text-5xl mb-4">
-                Why StartupBoost Stands Apart
+                Why FSI Digital Stands Apart
               </h2>
               <p className="max-w-3xl mx-auto text-xl text-blue-100">
                 Our unique combination of expertise, experience, and commitment sets us apart in the industry.
@@ -385,7 +385,7 @@ export default function AboutPage() {
               Ready to Partner With Industry Leaders?
             </h2>
             <p className="max-w-2xl mx-auto text-xl text-blue-100 mb-8">
-              Join the ranks of successful entrepreneurs who chose StartupBoost as their strategic partner. 
+              Join the ranks of successful entrepreneurs who chose FSI Digital as their strategic partner. 
               Let's discuss your vision and create a roadmap to success.
             </p>
             <Button size="lg" variant="secondary" className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 text-lg font-semibold shadow-xl" asChild>

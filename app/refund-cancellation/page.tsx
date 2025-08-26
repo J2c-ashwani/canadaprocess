@@ -4,8 +4,8 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Refund & Cancellation Policy | StartupBoost",
-  description: "Learn about our refund and cancellation policies for StartupBoost services.",
+  title: "Refund & Cancellation Policy | FSI Digital",
+  description: "Learn about our refund and cancellation policies for FSI Digital services.",
 }
 
 // Add ChevronLeft icon
@@ -36,7 +36,7 @@ export default function RefundCancellationPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Overview</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                At StartupBoost, we are committed to delivering high-quality services and ensuring client satisfaction.
+                At FSI Digital, we are committed to delivering high-quality services and ensuring client satisfaction.
                 This policy outlines our refund and cancellation procedures for different types of services we offer.
               </p>
             </section>
@@ -93,7 +93,7 @@ export default function RefundCancellationPage() {
               <h3 className="text-xl font-medium text-gray-800 mb-3">Eligible Refund Scenarios</h3>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
                 <li>Service not delivered as specified in the contract</li>
-                <li>Significant delays caused by StartupBoost (beyond agreed timeline)</li>
+                <li>Significant delays caused by FSI Digital (beyond agreed timeline)</li>
                 <li>Technical issues preventing service delivery</li>
                 <li>Failure to meet agreed-upon milestones</li>
               </ul>
@@ -180,7 +180,7 @@ export default function RefundCancellationPage() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. How to Request Cancellation or Refund</h2>
               <p className="text-gray-700 leading-relaxed mb-4">To request a cancellation or refund:</p>
               <ol className="list-decimal pl-6 text-gray-700 mb-4">
-                <li>Send written notice to billing@startupboost.com</li>
+                <li>Send written notice to billing@fsidigital.com</li>
                 <li>Include your account details and reason for request</li>
                 <li>Provide any supporting documentation</li>
                 <li>Allow 5-10 business days for review</li>
@@ -193,7 +193,7 @@ export default function RefundCancellationPage() {
               <p className="text-gray-700 leading-relaxed mb-4">For questions about refunds and cancellations:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-2">
-                  <strong>Email:</strong> billing@startupboost.com
+                  <strong>Email:</strong> billing@fsidigital.com
                 </p>
                 <p className="text-gray-700 mb-2">
                   <strong>Phone:</strong> +1 (555) 123-4567
