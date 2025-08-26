@@ -159,7 +159,7 @@ export default function ContactPage() {
                     <Mail className="h-6 w-6 text-emerald-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900">Email</h3>
-                      <p className="text-gray-600">hello@startupboost.ca</p>
+                      <p className="text-gray-600">hello@fsidigital.ca</p>
                       <p className="text-sm text-gray-500">We respond within 24 hours</p>
                     </div>
                   </div>
@@ -169,9 +169,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900">Offices</h3>
                       <div className="space-y-1 text-gray-600">
-                        <p>Toronto, ON - Main Office</p>
-                        <p>Vancouver, BC - West Coast Hub</p>
-                        <p>Montreal, QC - Eastern Operations</p>
+                        <p>5700 Yonge Street Suite 200. North York ON M2M 4K2</p>
                       </div>
                     </div>
                   </div>
@@ -341,7 +339,7 @@ export default function ContactPage() {
                       {submitStatus === 'error' && (
                         <div className="bg-red-50 border border-red-200 rounded-md p-3">
                           <p className="text-sm text-red-600">
-                            Failed to send message. Please try again or contact us directly at hello@startupboost.ca
+                            Failed to send message. Please try again or contact us directly at hello@fsidigital.ca
                           </p>
                         </div>
                       )}

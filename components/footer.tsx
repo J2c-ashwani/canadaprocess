@@ -198,10 +198,7 @@ export function Footer() {
               <li className="flex items-start space-x-3">
                 <MapPinIcon />
                 <div>
-                  <div>New York, NY</div>
-                  <div>Los Angeles, CA</div>
-                  <div>Chicago, IL</div>
-                </div>
+<div>5700 Yonge Street Suite 200, North York ON M2M 4K2</div>                </div>
               </li>
             </ul>
           </div>

@@ -7,12 +7,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'FSI Digital Canada - Professional Website Development & Digital Marketing',
-  description: 'Transform your startup with professional website development, SEO, digital marketing, and government grant assistance. Serving Canadian entrepreneurs since 2020.',
+  description: 'FSI Digital helps startups transform with professional website development, SEO, digital marketing, and government grant assistance.',
   keywords: 'startup website, web development, SEO, digital marketing, government grants, Canada',
   authors: [{ name: 'FSI Digital Canada' }],
   openGraph: {
     title: 'FSI Digital Canada - Professional Website Development',
-    description: 'Transform your startup with professional website development, SEO, and digital marketing services.',
+    description: 'FSI Digital provides expert startup solutions: website development, SEO, and digital marketing services.',
     url: 'https://startupboost.ca',
     siteName: 'FSI Digital Canada',
     images: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'FSI Digital Canada - Professional Website Development',
-    description: 'Transform your startup with professional website development, SEO, and digital marketing services.',
+    description: 'FSI Digital provides expert startup solutions: website development, SEO, and digital marketing services.',
     images: ['/og-image.jpg'],
   },
   robots: {

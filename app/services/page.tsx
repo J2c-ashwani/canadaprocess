@@ -10,8 +10,7 @@ import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: "Web Development Services USA | Custom Website Design & SEO Services",
-  description:
-    "Professional web development services in USA. Custom website design, e-commerce development, SEO services, and digital marketing. Serving New York, Los Angeles, Chicago.",
+  description: "Explore FSI Digital’s full range of services including website development, SEO, digital marketing, and funding assistance. Professional web development services in USA. Custom website design, e-commerce development, SEO services, and digital marketing. Serving New York, Los Angeles, Chicago.",
   keywords: [
     "web development services USA",
     "custom website design New York",
@@ -29,8 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Professional Web Development Services in USA | FSI Digital",
-    description:
-      "Custom website development, e-commerce solutions, SEO services, and digital marketing for American businesses. Get a free quote today.",
+    description: "Explore FSI Digital’s full range of services including website development, SEO, digital marketing, and funding assistance. Professional web development services in USA. Custom website design, e-commerce development, SEO services, and digital marketing. Serving New York, Los Angeles, Chicago.",
     url: "https://fsidigital.com/services",
   },
 }

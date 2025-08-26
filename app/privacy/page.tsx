@@ -177,7 +177,7 @@ export default function PrivacyPage() {
                   <strong>Phone:</strong> +1 (555) 123-4567
                 </p>
                 <p className="text-gray-700">
-                  <strong>Address:</strong> 123 Business Ave, New York, NY 10001
+                  <strong>Address:</strong> 5700 Yonge Street Suite 200. North York ON M2M 4K2
                 </p>
               </div>
             </section>

@@ -139,7 +139,7 @@ export default function TermsPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">9. Governing Law</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                These terms shall be governed by and construed in accordance with the laws of the State of New York,
+                These terms shall be governed by and construed in accordance with the laws of the Province of Ontario, Canada,
                 without regard to its conflict of law provisions.
               </p>
             </section>
@@ -165,7 +165,7 @@ export default function TermsPage() {
                   <strong>Phone:</strong> +1 (555) 123-4567
                 </p>
                 <p className="text-gray-700">
-                  <strong>Address:</strong> 123 Business Ave, New York, NY 10001
+                  <strong>Address:</strong> 5700 Yonge Street Suite 200. North York ON M2M 4K2
                 </p>
               </div>
             </section>

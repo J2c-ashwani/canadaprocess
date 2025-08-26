@@ -56,7 +56,7 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
           "name": "FSI Digital",
           "url": "https://startupboost.ca",
           "logo": "https://startupboost.ca/logo.png",
-          "description": "Professional website development and digital marketing services for Canadian businesses",
+          "description": "FSI Digital offers professional website development and digital marketing services for Canadian businesses",
           "address": {
             "@type": "PostalAddress",
             "addressCountry": "CA",
