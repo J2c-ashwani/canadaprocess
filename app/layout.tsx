@@ -56,8 +56,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} overflow-x-hidden`}>
-        {children}
+      <body className={inter.className}>
+        {/* This wrapper div provides the site-wide fix for overflow issues */}
+        <div className="overflow-x-hidden">
+          {children}
+        </div>
         <PopupContactForm />
       </body>
     </html>

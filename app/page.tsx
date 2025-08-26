@@ -20,12 +20,11 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    // This wrapper div fixes the horizontal overflow issue.
-    <div className="overflow-x-hidden">
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-1">
-          <section className="relative py-20 md:py-32 lg:py-40 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden animate-fadeInUp">
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-1">
+        <>
+          <section className="relative py-16 sm:py-20 md:py-32 lg:py-40 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden animate-fadeInUp">
             <div className="absolute inset-0 opacity-10">
               <div
                 className="absolute inset-0"
@@ -42,19 +41,19 @@ const HomePage: React.FC = () => {
             </div>
             <div className="container px-6 lg:px-8 mx-auto relative z-10">
               <div className="grid gap-12 lg:grid-cols-2 items-center">
-                <div className="space-y-8">
-                  <div className="space-y-6">
+                <div className="space-y-6 sm:space-y-8">
+                  <div className="space-y-4 sm:space-y-6">
                     <div className="inline-flex items-center rounded-full bg-white/10 backdrop-blur-sm px-6 py-3 text-sm font-medium text-white border border-white/20">
                       <Award className="mr-2 h-4 w-4 text-amber-400" />
                       🚀 $50M+ in Grants Secured
                     </div>
-                    <h1 className="text-[28px] leading-tight sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                       Unlock Government Funding &
                       <span className="inline-block relative text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-teal-300 to-blue-400">
                         Transform Your Digital Presence
                       </span>
                     </h1>
-                    <p className="text-xl text-slate-300 leading-relaxed max-w-2xl">
+                    <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl">
                       Secure millions in government grants and build world-class websites with our proven expertise for startups in the USA and Canada.
                     </p>
                   </div>
@@ -93,7 +92,7 @@ const HomePage: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                <div className="relative">
+                <div className="relative hidden lg:block">
                   <div className="relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 via-teal-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
                     <Image
@@ -152,7 +151,7 @@ const HomePage: React.FC = () => {
                   Why choose between funding and digital growth? Get both! We secure government grants to fund your digital transformation while building world-class websites and marketing strategies.
                 </p>
               </div>
-              <div className="grid gap-8 lg:grid-cols-2 xl:grid-cols-3">
+              <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
                 <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-500 bg-white group hover:-translate-y-2">
                   <CardHeader className="text-center pb-4">
                     <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 group-hover:scale-110 transition-transform duration-500 shadow-lg">
@@ -446,7 +445,7 @@ const HomePage: React.FC = () => {
                     </Button>
                   </div>
                 </div>
-                <div className="relative">
+                <div className="relative hidden lg:block">
                   <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 via-blue-500/10 to-slate-500/10 rounded-3xl blur-2xl"></div>
                   <Image
                     alt="Canadian web development team creating custom websites"
@@ -473,7 +472,7 @@ const HomePage: React.FC = () => {
                   Real results from Canadian businesses who transformed their online presence with our professional web development and digital marketing services.
                 </p>
               </div>
-              <div className="grid gap-8 lg:grid-cols-3">
+              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                 <Card className="border-0 shadow-lg bg-white hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-8">
                     <div className="flex mb-6">
@@ -576,9 +575,9 @@ const HomePage: React.FC = () => {
               </div>
             </div>
           </section>
-        </main>
-        <Footer />
-      </div>
+        </>
+      </main>
+      <Footer />
     </div>
   );
 };
