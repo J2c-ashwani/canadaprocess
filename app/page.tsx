@@ -24,7 +24,7 @@ const HomePage: React.FC = () => {
       <Header />
       <main className="flex-1">
         <>
-          <section className="relative py-16 sm:py-20 md:py-32 lg:py-40 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden animate-fadeInUp">
+       <section className="relative py-12 sm:py-16 md:py-32 lg:py-40 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden animate-fadeInUp">
             <div className="absolute inset-0 opacity-10">
               <div
                 className="absolute inset-0"
@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
                         Transform Your Digital Presence
                       </span>
                     </h1>
-                    <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl">
+                     <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-md sm:max-w-2xl">
                       Secure millions in government grants and build world-class websites with our proven expertise for startups in the USA and Canada.
                     </p>
                   </div>
@@ -77,7 +77,7 @@ const HomePage: React.FC = () => {
                       <Link href="/services">View Our Portfolio</Link>
                     </Button>
                   </div>
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-white/20">
+                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pt-8 border-t border-white/20">
                     <div className="text-center">
                       <div className="text-3xl font-bold text-white">500+</div>
                       <div className="text-sm text-slate-300 font-medium">Websites Built</div>
@@ -151,7 +151,7 @@ const HomePage: React.FC = () => {
                   Why choose between funding and digital growth? Get both! We secure government grants to fund your digital transformation while building world-class websites and marketing strategies.
                 </p>
               </div>
-              <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+               <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
                 <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-500 bg-white group hover:-translate-y-2">
                   <CardHeader className="text-center pb-4">
                     <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 group-hover:scale-110 transition-transform duration-500 shadow-lg">
@@ -472,7 +472,7 @@ const HomePage: React.FC = () => {
                   Real results from Canadian businesses who transformed their online presence with our professional web development and digital marketing services.
                 </p>
               </div>
-              <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+               <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <Card className="border-0 shadow-lg bg-white hover:shadow-xl transition-all duration-300">
                   <CardContent className="p-8">
                     <div className="flex mb-6">
@@ -540,7 +540,7 @@ const HomePage: React.FC = () => {
             </div>
           </section>
 
-          <section className="w-full py-20 md:py-32 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden animate-fadeInUp">
+          <section className="w-full py-12 sm:py-20 md:py-32 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden animate-fadeInUp">
             <div className="absolute inset-0 opacity-10">
               <div className="absolute top-20 left-20 w-32 h-32 bg-teal-400/20 rounded-full animate-float"></div>
               <div className="absolute bottom-20 right-20 w-24 h-24 bg-amber-400/20 rounded-full animate-float animation-delay-2000"></div>
