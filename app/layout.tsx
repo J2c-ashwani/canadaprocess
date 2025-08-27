@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { PopupContactForm } from "@/components/popup-contact-form";
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+import { PopupContactForm } from "@/components/popup-contact-form"
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-});
+})
 
 export const metadata: Metadata = {
-  title:
-    "FSI Digital Canada - Professional Website Development & Digital Marketing",
+  title: "FSI Digital Canada - Professional Website Development & Digital Marketing",
   description:
     "FSI Digital helps startups transform with professional website development, SEO, digital marketing, and government grant assistance.",
 
@@ -24,8 +24,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png", // For iOS/iPadOS home screen
   },
 
-  keywords:
-    "startup website, web development, SEO, digital marketing, government grants, Canada",
+  keywords: "startup website, web development, SEO, digital marketing, government grants, Canada",
   authors: [{ name: "FSI Digital Canada" }],
   openGraph: {
     title: "FSI Digital Canada - Professional Website Development",
@@ -66,19 +65,22 @@ export const metadata: Metadata = {
     google: "REPLACE_WITH_YOUR_VERIFICATION_CODE",
   },
   generator: "Next.js",
-};
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.className} bg-white text-gray-900`}>
-        <div className="overflow-x-hidden">{children}</div>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      </head>
+      <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
+        <div className="min-h-screen w-full max-w-full">{children}</div>
         <PopupContactForm />
       </body>
     </html>
-  );
+  )
 }
