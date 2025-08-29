@@ -99,55 +99,19 @@ const HomePage: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className="relative order-first lg:order-last">
-                <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 via-teal-500/20 to-blue-500/20 rounded-3xl blur-3xl"></div>
+              <div className="relative order-first lg:order-last overflow-hidden">
+                <div
+                  className="absolute inset-0 bg-gradient-to-r from-teal-500/10 via-blue-500/10 to-slate-500/10 rounded-2xl sm:rounded-3xl blur-2xl pointer-events-none"
+                  aria-hidden="true"
+                ></div>
+                <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                   <Image
-                    alt="FSI Digital team working on custom web design projects"
-                    className="relative rounded-3xl object-cover shadow-2xl border border-white/20 backdrop-blur-sm w-full h-[250px] sm:h-[350px] lg:h-[600px]"
-                    height={600}
-                    src="/modern-startup-office.png"
+                    alt="Canadian web development team creating custom websites"
+                    src="/startup-strategy-discussion.png"
                     width={600}
-                    priority
+                    height={600}
+                    className="block w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px] object-cover"
                   />
-                  <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-gradient-to-r from-teal-600 to-blue-600 rounded-2xl p-4 sm:p-6 shadow-2xl border border-white/10">
-                    <div className="flex items-center space-x-3 sm:space-x-4">
-                      <div className="bg-white/20 p-2 sm:p-3 rounded-xl backdrop-blur-sm">
-                        <TrendingUp className="h-6 w-6 sm:h-8 sm:w-8 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-white text-base sm:text-lg">85% Success</div>
-                        <div className="text-xs sm:text-sm text-white/80">Grant Approval Rate</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="absolute -top-4 -right-4 sm:-top-6 sm:-right-6 bg-gradient-to-r from-amber-500 to-amber-600 rounded-2xl p-3 sm:p-4 shadow-2xl border border-white/10">
-                    <div className="flex items-center space-x-2 sm:space-x-3">
-                      <div className="bg-white/20 p-1.5 sm:p-2 rounded-lg backdrop-blur-sm">
-                        <Award className="h-4 w-4 sm:h-6 sm:w-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-bold text-white flex items-center text-sm sm:text-base">
-                          <Image
-                            src="/flags/us.png"
-                            alt="USA Flag"
-                            width={20}
-                            height={14}
-                            className="mr-1 rounded-sm"
-                          />
-                          <Image
-                            src="/flags/ca.png"
-                            alt="Canadian Flag"
-                            width={20}
-                            height={14}
-                            className="mr-1.5 rounded-sm"
-                          />
-                          Dual Expertise
-                        </div>
-                        <div className="text-xs text-white/80">Grants + Web Solutions</div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -424,10 +388,10 @@ const HomePage: React.FC = () => {
         <TechnologyStack />
         <Guarantees />
 
-        <section className="w-full py-12 sm:py-16 md:py-20 lg:py-32 bg-gray-50 animate-slideInLeft overflow-visible">
-          <div className="container px-4 sm:px-6 lg:px-8 mx-auto overflow-visible">
-            <div className="grid gap-8 sm:gap-12 lg:gap-16 lg:grid-cols-2 items-center overflow-visible">
-              <div className="space-y-6 sm:space-y-8 overflow-visible">
+        <section className="w-full py-12 sm:py-16 md:py-20 lg:py-32 bg-gray-50 animate-slideInLeft overflow-hidden">
+          <div className="container px-4 sm:px-6 lg:px-8 mx-auto overflow-hidden">
+            <div className="grid gap-8 sm:gap-12 lg:gap-16 lg:grid-cols-2 items-center overflow-hidden">
+              <div className="space-y-6 sm:space-y-8 overflow-hidden">
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-slate-900 mb-4 sm:mb-6 text-balance leading-tight px-2 sm:px-0">
                   Why Canadian Businesses Choose
                   <span className="block bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent mt-1 break-words word-break overflow-wrap-anywhere">
@@ -440,82 +404,87 @@ const HomePage: React.FC = () => {
                   development with strategic digital marketing to deliver exceptional ROI for startups, small
                   businesses, and enterprises across Toronto, Vancouver, Montreal, and beyond.
                 </p>
-                <div className="space-y-4 sm:space-y-6 overflow-visible">
-                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-visible">
-                    <div className="flex-shrink-0 bg-gradient-to-br from-teal-500 to-teal-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-visible">
+                <div className="space-y-4 sm:space-y-6 overflow-hidden">
+                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-hidden">
+                    <div className="flex-shrink-0 bg-gradient-to-br from-teal-500 to-teal-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-hidden">
                       <CheckCircle className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-white" />
                     </div>
-                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-visible">
-                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-visible">
+                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-hidden">
+                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-hidden">
                         Proven Track Record
                       </h3>
-                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-visible">
+                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-hidden">
                         500+ successful website projects with measurable ROI and sustained business growth for Canadian
                         clients across all industries.
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-visible">
-                    <div className="flex-shrink-0 bg-gradient-to-br from-blue-500 to-blue-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-visible">
+                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-hidden">
+                    <div className="flex-shrink-0 bg-gradient-to-br from-blue-500 to-blue-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-hidden">
                       <Shield className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-white" />
                     </div>
-                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-visible">
-                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-visible">
+                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-hidden">
+                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-hidden">
                         Enterprise-Grade Security
                       </h3>
-                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-visible">
+                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-hidden">
                         Bank-level security protocols, SSL certificates, and ISO 27001 certified development processes
                         ensure your website and data remain completely secure.
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-visible">
-                    <div className="flex-shrink-0 bg-gradient-to-br from-amber-500 to-amber-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-visible">
+                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-hidden">
+                    <div className="flex-shrink-0 bg-gradient-to-br from-amber-500 to-amber-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-hidden">
                       <Award className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-white" />
                     </div>
-                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-visible">
-                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-visible">
+                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-hidden">
+                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-hidden">
                         Full-Service Digital Agency
                       </h3>
-                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-visible">
+                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-hidden">
                         From custom web development and SEO to digital marketing and government grants - everything you
                         need to succeed online under one roof.
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-visible">
-                    <div className="flex-shrink-0 bg-gradient-to-br from-slate-500 to-slate-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-visible">
+                  <div className="flex items-start space-x-3 sm:space-x-4 px-2 sm:px-0 py-2 sm:py-3 overflow-hidden">
+                    <div className="flex-shrink-0 bg-gradient-to-br from-slate-500 to-slate-600 p-2.5 sm:p-3 rounded-xl shadow-lg mt-0.5 overflow-hidden">
                       <Clock className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-white" />
                     </div>
-                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-visible">
-                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-visible">
+                    <div className="flex-1 min-w-0 pr-2 sm:pr-4 overflow-hidden">
+                      <h3 className="font-bold text-slate-900 text-sm sm:text-base lg:text-lg mb-1 sm:mb-2 text-balance break-words overflow-hidden">
                         Dedicated Canadian Support
                       </h3>
-                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-visible">
+                      <p className="text-slate-600 text-xs sm:text-sm lg:text-base leading-relaxed text-pretty break-words word-break overflow-wrap-anywhere overflow-hidden">
                         24/7 technical support and dedicated account management from our Canadian team ensures your
                         website performs optimally at all times.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="pt-2 sm:pt-4 px-4 pb-24 overflow-visible">
+                <div className="pt-2 sm:pt-4 px-4 pb-24 overflow-hidden">
                   <Button
-                    className="bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-700 hover:to-blue-700 text-white px-6 sm:px-10 py-4 text-sm sm:text-base lg:text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 w-full rounded-xl break-words word-break overflow-visible"
+                    className="bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-700 hover:to-blue-700 text-white px-6 sm:px-10 py-4 text-sm sm:text-base lg:text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-300 w-full rounded-xl break-words word-break overflow-hidden"
                     asChild
                   >
                     <Link href="/about">Learn About Our Web Development Process</Link>
                   </Button>
                 </div>
               </div>
-              <div className="relative order-first lg:order-last overflow-visible">
-                <div className="absolute inset-0 bg-gradient-to-r from-teal-500/10 via-blue-500/10 to-slate-500/10 rounded-2xl sm:rounded-3xl blur-2xl overflow-visible"></div>
-                <Image
-                  alt="Canadian web development team creating custom websites"
-                  className="relative rounded-2xl sm:rounded-3xl object-cover shadow-2xl border border-slate-200 w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px] overflow-visible"
-                  height={600}
-                  src="/startup-strategy-discussion.png"
-                  width={600}
-                />
+              <div className="relative order-first lg:order-last overflow-hidden">
+                <div
+                  className="absolute inset-0 bg-gradient-to-r from-teal-500/10 via-blue-500/10 to-slate-500/10 rounded-2xl sm:rounded-3xl blur-2xl pointer-events-none"
+                  aria-hidden="true"
+                ></div>
+                <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
+                  <Image
+                    alt="Canadian web development team creating custom websites"
+                    src="/startup-strategy-discussion.png"
+                    width={600}
+                    height={600}
+                    className="block w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px] object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
