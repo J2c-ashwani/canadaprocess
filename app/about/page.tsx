@@ -103,7 +103,7 @@ export default function AboutPage() {
                   alt="Our founding team and company culture"
                   className="relative rounded-2xl object-cover shadow-2xl"
                   height="600"
-                  src="/startup-strategy-discussion.png"
+                  src="/aboutheader.jpg"
                   width="600"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-6 shadow-xl border">

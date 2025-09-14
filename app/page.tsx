@@ -107,7 +107,7 @@ const HomePage: React.FC = () => {
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                   <Image
                     alt="Canadian web development team creating custom websites"
-                    src="/startup-strategy-discussion.png"
+                    src="/headerimage.jpg"
                     width={600}
                     height={600}
                     className="block w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px] object-cover"
@@ -479,7 +479,7 @@ const HomePage: React.FC = () => {
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-slate-200">
                   <Image
                     alt="Canadian web development team creating custom websites"
-                    src="/startup-strategy-discussion.png"
+                    src="/herobody.jpg"
                     width={600}
                     height={600}
                     className="block w-full h-[200px] xs:h-[250px] sm:h-[300px] md:h-[350px] lg:h-[500px] xl:h-[600px] object-cover"
