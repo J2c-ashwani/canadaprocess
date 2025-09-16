@@ -13,6 +13,7 @@ import { TrustBadges } from "@/components/trust-badges"
 import { Guarantees } from "@/components/guarantees"
 import { TechnologyStack } from "@/components/technology-stack"
 import { TeamExpertise } from "@/components/team-expertise"
+import Script from "next/script"
 
 const HomePage: React.FC = () => {
   const handleServicesClick = () => {
@@ -612,11 +613,46 @@ const HomePage: React.FC = () => {
               </Button>
             </div>
           </div>
-        </section>
+               </section>
       </main>
+
+      {/* ✅ JSON-LD Schema for SEO */}
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "FSI Digital",
+            "url": "https://fsidigital.ca",
+            "logo": "https://fsidigital.ca/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "hello@fsidigital.ca",
+              "contactType": "customer service",
+              "areaServed": "CA",
+              "availableLanguage": ["English"]
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "5700 Yonge Street Suite 200",
+              "addressLocality": "North York",
+              "addressRegion": "ON",
+              "postalCode": "M2M 4K2",
+              "addressCountry": "CA"
+            },
+            "description":
+              "FSI Digital is a Canadian digital agency helping businesses with government grants, website development, SEO, digital marketing, e-commerce, and website redesign."
+          })
+        }}
+      />
+
       <Footer />
     </div>
   )
 }
 
 export default HomePage
+

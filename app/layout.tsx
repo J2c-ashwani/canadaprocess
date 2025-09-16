@@ -76,6 +76,37 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        {/* ✅ Organization Schema Markup */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "FSI Digital",
+              "url": "https://www.fsidigital.ca",
+              "logo": "https://www.fsidigital.ca/logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "hello@fsidigital.ca",
+                "contactType": "customer service",
+                "areaServed": "CA",
+                "availableLanguage": ["English"]
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "5700 Yonge Street Suite 200",
+                "addressLocality": "North York",
+                "addressRegion": "ON",
+                "postalCode": "M2M 4K2",
+                "addressCountry": "CA"
+              },
+              "description":
+                "FSI Digital is a Canadian digital agency helping businesses with government grants, website development, SEO, digital marketing, e-commerce, and website redesign."
+            })
+          }}
+        />
       </head>
       <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
         <div className="min-h-screen w-full max-w-full">{children}</div>
