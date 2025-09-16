@@ -13,10 +13,10 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
           "@context": "https://schema.org",
           "@type": "WebSite",
           "name": "FSI Digital",
-          "url": "https://startupboost.ca",
+          "url": "https://fsidigital.ca",
           "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://startupboost.ca/search?q={search_term_string}",
+            "target": "https://fsidigital.ca/search?q={search_term_string}",
             "query-input": "required name=search_term_string"
           }
         }
@@ -30,7 +30,7 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
           "provider": {
             "@type": "Organization",
             "name": "FSI Digital",
-            "url": "https://startupboost.ca"
+            "url": "https://fsidigital.ca"
           },
           "areaServed": {
             "@type": "Country",
@@ -54,8 +54,8 @@ export function SEOSchema({ type, data }: SEOSchemaProps) {
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "FSI Digital",
-          "url": "https://startupboost.ca",
-          "logo": "https://startupboost.ca/logo.png",
+          "url": "https://fsidigital.ca",
+          "logo": "https://fsidigital.ca/logo.png",
           "description": "FSI Digital offers professional website development and digital marketing services for Canadian businesses",
           "address": {
             "@type": "PostalAddress",

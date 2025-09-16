@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/admin/'],
     },
-    sitemap: 'https://startupboost.ca/sitemap.xml',
+    sitemap: 'https://fsidigital.ca/sitemap.xml',
   }
 }

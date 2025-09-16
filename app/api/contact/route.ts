@@ -204,7 +204,7 @@ export async function POST(request: NextRequest) {
               <p style="color: #6b7280; margin-bottom: 20px;">Don't wait - reach out to us directly!</p>
               
               <div style="margin: 15px 0;">
-                <p style="margin: 5px 0;"><strong>📧 Email:</strong> <a href="mailto:hello@fsidigital.ca" style="color: #10b981; text-decoration: none;">hello@startupboost.ca</a></p>
+                <p style="margin: 5px 0;"><strong>📧 Email:</strong> <a href="mailto:hello@fsidigital.ca" style="color: #10b981; text-decoration: none;">hello@fsidigital.ca</a></p>
                 <p style="margin: 5px 0;"><strong>📞 Phone:</strong> <a href="tel:+15551234567" style="color: #10b981; text-decoration: none;">+1 (555) 123-4567</a></p>
                 <p style="margin: 5px 0;"><strong>🕒 Hours:</strong> Monday - Friday, 9 AM - 6 PM EST</p>
               </div>

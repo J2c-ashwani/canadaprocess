@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://startupboost.ca'
+  const baseUrl = 'https://fsidigital.ca'
   
   return [
     {

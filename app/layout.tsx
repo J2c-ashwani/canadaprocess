@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "FSI Digital Canada - Professional Website Development",
     description:
       "FSI Digital provides expert startup solutions: website development, SEO, and digital marketing services.",
-    url: "https://startupboost.ca",
+    url: "https://fsidigital.ca",
     siteName: "FSI Digital Canada",
     images: [
       {
