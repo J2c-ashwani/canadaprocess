@@ -220,7 +220,7 @@ export function PopupContactForm() {
                     type="tel"
                     value={formData.phone}
                     onChange={handleInputChange}
-                    placeholder="+1 (555) 123-4567"
+                    placeholder="+1 (909) 404-8938"
                     className="pl-7 h-8 text-sm"
                   />
                 </div>

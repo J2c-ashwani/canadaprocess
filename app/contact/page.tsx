@@ -150,7 +150,7 @@ export default function ContactPage() {
                     <Phone className="h-6 w-6 text-emerald-600 mt-1" />
                     <div>
                       <h3 className="font-semibold text-gray-900">Phone</h3>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
+                      <p className="text-gray-600">+1 (909) 404-8938</p>
                       <p className="text-sm text-gray-500">Monday - Friday, 9 AM - 6 PM EST</p>
                     </div>
                   </div>
@@ -266,7 +266,7 @@ export default function ContactPage() {
                           name="phone"
                           value={formData.phone}
                           onChange={handleInputChange}
-                          placeholder="+1 (555) 123-4567" 
+                          placeholder="+1 (909) 404-8938" 
                           type="tel"
                         />
                       </div>
